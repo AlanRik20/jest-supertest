@@ -38,6 +38,10 @@ export function buildTodoRouter(service: TodoService): Router {
       res.status(404).json({ error: err.message });
     }
   });
+  router.get("/stats", (_req, res) => {
+    res.json(service.stats());
+  });
+
 
   return router;
 }

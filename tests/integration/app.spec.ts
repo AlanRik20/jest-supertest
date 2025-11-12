@@ -51,9 +51,9 @@ describe('Todo API', () => {
 
   it("GET /todos/stats devuelve los totales", async () => {
   // Creamos datos de prueba
-  await request(app).post("/todos").send({ title: "Letra: A " });
-  const b = await request(app).post("/todos").send({ title: "Letra: B" });
-  await request(app).post("/todos").send({ title: "Letra: C" });
+  await request(app).post("/todos").send({ title: "Título: 1 " });
+  const b = await request(app).post("/todos").send({ title: "Título: 2" });
+  await request(app).post("/todos").send({ title: "Título: 3" });
 
 
   // Marcamos uno como completado

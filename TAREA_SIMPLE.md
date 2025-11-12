@@ -140,10 +140,10 @@ npm run test:coverage  # muestra cobertura y genera carpeta coverage/
 
 ## 5) Checklist de entrega
 
-- [ ] El test unitario de `stats()` está agregado y pasa.
-- [ ] El endpoint `GET /todos/stats` está agregado y el test pasa.
-- [ ] El proyecto corre sin errores (`npm run dev`).
-- [ ] Se mantienen los nombres y estructuras **exactos** usados en los tests.
+- [X] El test unitario de `stats()` está agregado y pasa.
+- [X] El endpoint `GET /todos/stats` está agregado y el test pasa.
+- [X] El proyecto corre sin errores (`npm run dev`).
+- [X] Se mantienen los nombres y estructuras **exactos** usados en los tests.
 - [ ] No usaste `app.listen` en tests (se usa `supertest(app)` importando la app).
 
 ---
